@@ -7,3 +7,8 @@ defineProps<{
   src: string
 }>()
 </script>
+<style lang="less" scoped>
+iframe {
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+</style>
